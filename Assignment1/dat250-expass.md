@@ -7,17 +7,26 @@ __Installation__
 
 
 __Testing and compiling__
-* Mvn clean install could not delete my .jar extension file which meant that the original getting started project would not get modified. 
+* Mvn clean install could not delete my .jar extension file which meant that the original getting started project would not get modified. This was fixed by just closing and opening the windows cli session.
+* Creating a heroku project in the wrong firectory also resulted in an error.  
 
 ### Validation
+The steps taken to ensure that the heroku app enviroment was working.
 
 __Running on the Web__
-* No problem occured following the instructions given in the tutorial. 
+* Preparing the app
+* Deploying the app on heroku
+* Scaling the app by modifing number of dynos the app run on
+* Modifining app dependencies and addons
+* Using the heroku database 
 
 __Running Locally__
-* Worked until I tried to modify the original code. 
-
+* Run the app locally
+* Pushing local changes to modify app
+* Changing the .env file and adding it to gitignore to avoid security issues
+* Starting a one-off dyno
+ 
 ### Pending issues
 
-Could not solve the problem with the .jar file within the given timeframe. 
+None, error logs can be found in file error.txt.
  
