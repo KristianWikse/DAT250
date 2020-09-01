@@ -1,0 +1,77 @@
+2020-08-25T08:55:22.596701+00:00 app[api]: Release v1 created by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:55:22.596701+00:00 app[api]: Initial release by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:55:22.690460+00:00 app[api]: Enable Logplex by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:55:22.690460+00:00 app[api]: Release v2 created by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:55:46.000000+00:00 app[api]: Build started by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:56:15.378708+00:00 app[api]: Attach DATABASE (@ref:postgresql-symmetrical-36858) by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:56:15.378708+00:00 app[api]: Running release v3 commands by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:56:15.394242+00:00 app[api]: Release v4 created by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:56:15.394242+00:00 app[api]: @ref:postgresql-symmetrical-36858 completed provisioning, setting DATABASE_URL. by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:56:15.661930+00:00 app[api]: Deploy 6b45b216 by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:56:15.661930+00:00 app[api]: Release v5 created by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:56:15.672715+00:00 app[api]: Scaled to web@1:Free by user 2annihiliate_fermions@hotmail.no
+2020-08-25T08:56:18.899037+00:00 heroku[web.1]: Starting process with command `java -jar target/java-getting-started-1.0.jar`
+2020-08-25T08:56:20.636371+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-25T08:56:20.640266+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8
+2020-08-25T08:56:21.000000+00:00 app[api]: Build succeeded
+2020-08-25T08:56:21.861602+00:00 app[web.1]: _    _                _
+2020-08-25T08:56:21.861653+00:00 app[web.1]: | |  | |              | |
+2020-08-25T08:56:21.861654+00:00 app[web.1]: | |__| | ___ _ __ ___ | | ___   _
+2020-08-25T08:56:21.861654+00:00 app[web.1]: |  __  |/ _ \ '__/ _ \| |/ / | | |
+2020-08-25T08:56:21.861654+00:00 app[web.1]: | |  | |  __/ | | (_) |   <| |_| |
+2020-08-25T08:56:21.861655+00:00 app[web.1]: |_|  |_|\___|_|  \___/|_|\_\\__,_|
+2020-08-25T08:56:21.861655+00:00 app[web.1]: 
+2020-08-25T08:56:21.861656+00:00 app[web.1]: :: Built with Spring Boot :: 2.3.0.RELEASE
+2020-08-25T08:56:21.861665+00:00 app[web.1]: 
+2020-08-25T08:56:22.015553+00:00 app[web.1]: 2020-08-25 08:56:22.011  INFO 4 --- [           main] com.example.Main                         : Starting Main v1.0 on aa392b72-3e30-40da-b7be-a6f5be4d4c1e with PID 4 (/app/target/java-getting-started-1.0.jar started by u46090 in /app)
+2020-08-25T08:56:22.016290+00:00 app[web.1]: 2020-08-25 08:56:22.016  INFO 4 --- [           main] com.example.Main                         : The following profiles are active: production
+2020-08-25T08:56:24.209838+00:00 app[web.1]: 2020-08-25 08:56:24.209  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 46359 (http)
+2020-08-25T08:56:24.226724+00:00 app[web.1]: 2020-08-25 08:56:24.226  INFO 4 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-25T08:56:24.227016+00:00 app[web.1]: 2020-08-25 08:56:24.226  INFO 4 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-25T08:56:24.321628+00:00 app[web.1]: 2020-08-25 08:56:24.321  INFO 4 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-25T08:56:24.321802+00:00 app[web.1]: 2020-08-25 08:56:24.321  INFO 4 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2219 ms
+2020-08-25T08:56:24.603913+00:00 app[web.1]: 2020-08-25 08:56:24.602  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-25T08:56:25.292199+00:00 app[web.1]: 2020-08-25 08:56:25.291  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-25T08:56:25.456477+00:00 app[web.1]: 2020-08-25 08:56:25.456  INFO 4 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-25T08:56:25.886489+00:00 app[web.1]: 2020-08-25 08:56:25.886  INFO 4 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-25T08:56:26.546039+00:00 app[web.1]: 2020-08-25 08:56:26.545  INFO 4 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-25T08:56:26.608084+00:00 app[web.1]: 2020-08-25 08:56:26.607  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 46359 (http) with context path ''
+2020-08-25T08:56:26.638032+00:00 app[web.1]: 2020-08-25 08:56:26.637  INFO 4 --- [           main] com.example.Main                         : Started Main in 5.344 seconds (JVM running for 5.997)
+2020-08-25T08:56:26.746173+00:00 heroku[web.1]: State changed from starting to up
+2020-08-25T08:57:51.605025+00:00 app[web.1]: 2020-08-25 08:57:51.604  INFO 4 --- [io-46359-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-25T08:57:51.605429+00:00 app[web.1]: 2020-08-25 08:57:51.605  INFO 4 --- [io-46359-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-25T08:57:51.627506+00:00 app[web.1]: 2020-08-25 08:57:51.627  INFO 4 --- [io-46359-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2020-08-25T08:57:52.946184+00:00 heroku[router]: at=info method=GET path="/" host=shielded-tundra-89097.herokuapp.com request_id=c84433ab-6417-404e-b5fe-5812b27ed099 fwd="85.167.250.116" dyno=web.1 connect=1ms service=1768ms status=200 bytes=7332 protocol=https
+2020-08-25T08:57:53.143646+00:00 heroku[router]: at=info method=GET path="/stylesheets/main.css" host=shielded-tundra-89097.herokuapp.com request_id=139a7973-7db5-41c8-a35a-906f3ddcc9e6 fwd="85.167.250.116" dyno=web.1 connect=1ms service=41ms status=200 bytes=896 protocol=https
+2020-08-25T08:57:53.192166+00:00 heroku[router]: at=info method=GET path="/webjars/jquery/3.3.1-1/jquery.min.js" host=shielded-tundra-89097.herokuapp.com request_id=31922a38-9dc9-4146-8f69-9f6b572e7dad fwd="85.167.250.116" dyno=web.1 connect=1ms service=20ms status=200 bytes=87218 protocol=https
+2020-08-25T08:57:53.308703+00:00 heroku[router]: at=info method=GET path="/webjars/jquery-ui/1.12.1/jquery-ui.min.js" host=shielded-tundra-89097.herokuapp.com request_id=62501d81-539c-4ec8-9418-d42f54b46ffb fwd="85.167.250.116" dyno=web.1 connect=1ms service=28ms status=200 bytes=253961 protocol=https
+2020-08-25T08:57:53.428630+00:00 heroku[router]: at=info method=GET path="/webjars/bootstrap/4.1.3/js/bootstrap.min.js" host=shielded-tundra-89097.herokuapp.com request_id=6cacad00-879d-45e4-bd44-8ab952a447b0 fwd="85.167.250.116" dyno=web.1 connect=0ms service=18ms status=200 bytes=51330 protocol=https
+2020-08-25T08:57:53.453506+00:00 heroku[router]: at=info method=GET path="/lang-logo.png" host=shielded-tundra-89097.herokuapp.com request_id=4c560c48-ec2c-449d-87b1-56617265c470 fwd="85.167.250.116" dyno=web.1 connect=1ms service=11ms status=200 bytes=4433 protocol=https
+2020-08-25T08:57:54.820607+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shielded-tundra-89097.herokuapp.com request_id=a2f4e033-e3a5-4b34-bbeb-1e1805c7b26f fwd="85.167.250.116" dyno=web.1 connect=1ms service=435ms status=404 bytes=346 protocol=https
+2020-08-25T09:10:18.945214+00:00 app[api]: Scaled to web@0:Free by user 2annihiliate_fermions@hotmail.no
+2020-08-25T09:10:19.016359+00:00 heroku[web.1]: State changed from up to down
+2020-08-25T09:10:19.913218+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-08-25T09:10:19.978938+00:00 app[web.1]: 2020-08-25 09:10:19.978  INFO 4 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-25T09:10:19.979431+00:00 app[web.1]: 2020-08-25 09:10:19.979  INFO 4 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-25T09:10:20.002101+00:00 app[web.1]: 2020-08-25 09:10:20.001  INFO 4 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-25T09:10:20.099442+00:00 heroku[web.1]: Process exited with status 143
+2020-08-25T09:10:28.236845+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shielded-tundra-89097.herokuapp.com request_id=465089c0-69f8-4736-9069-4fc2997a87aa fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-25T23:16:33.611324+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shielded-tundra-89097.herokuapp.com request_id=77f69cdf-524a-4d4f-b57a-318864fd54d4 fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-25T23:16:35.892555+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shielded-tundra-89097.herokuapp.com request_id=3b371096-bfd8-4de2-b591-a42b851a851b fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-31T01:07:52.828268+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/robots.txt" host=shielded-tundra-89097.herokuapp.com request_id=e51e862a-be47-49eb-a141-c3160730c006 fwd="77.88.5.110" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-31T01:07:56.693874+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shielded-tundra-89097.herokuapp.com request_id=8a40a9eb-8f83-498e-95d1-4e16c1d26f64 fwd="77.88.5.113" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-31T01:08:00.442759+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shielded-tundra-89097.herokuapp.com request_id=0f020340-001f-48e7-abf1-4f5da64ddaf4 fwd="77.88.5.10" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-31T01:08:04.185964+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shielded-tundra-89097.herokuapp.com request_id=409edfb9-56f3-4bbb-958b-3bd31dafa79a fwd="93.158.161.37" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-31T20:51:39.438221+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shielded-tundra-89097.herokuapp.com request_id=8c3e5794-d6d2-4c3a-98af-699693dd84c4 fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-31T20:51:41.941778+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shielded-tundra-89097.herokuapp.com request_id=012afd96-dbc9-4417-af7c-6bdfc93253c2 fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-01T13:12:36.000000+00:00 app[api]: Build started by user 2annihiliate_fermions@hotmail.no
+2020-09-01T13:12:57.195441+00:00 app[api]: Release v6 created by user 2annihiliate_fermions@hotmail.no
+2020-09-01T13:12:57.195441+00:00 app[api]: Deploy c8835ec5 by user 2annihiliate_fermions@hotmail.no
+2020-09-01T13:13:03.000000+00:00 app[api]: Build succeeded
+2020-09-01T13:13:17.232988+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/hello" host=shielded-tundra-89097.herokuapp.com request_id=852a7b10-6756-414e-b3a5-a604def4e3bc fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-01T13:13:18.075941+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shielded-tundra-89097.herokuapp.com request_id=461f9fa2-12e4-4eed-a33e-268ea4ab4d25 fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-01T13:21:57.626004+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/hello" host=shielded-tundra-89097.herokuapp.com request_id=639609a3-897e-4ed0-b158-2e0a886eef42 fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-01T13:21:58.141226+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shielded-tundra-89097.herokuapp.com request_id=3e0e92bd-434e-4bff-9dab-e1c59957d00b fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-01T13:23:03.202704+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shielded-tundra-89097.herokuapp.com request_id=a42073b1-6e10-4b3d-bcfc-350db19b9558 fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-01T13:23:03.952525+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shielded-tundra-89097.herokuapp.com request_id=b1a92ebc-814e-4434-8a18-5d4388336898 fwd="85.167.250.116" dyno= connect= service= status=503 bytes= protocol=https
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
